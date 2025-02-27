@@ -6,6 +6,10 @@ output: html_document
 ---
 
 ```{r setup}
+library(dplyr)
+library(readr)
+
+bes_2017 <- read_csv('../data/BES-2017-f2f-gender-fb-tw.csv')
 
 ```
 
